@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <title>Mi Currículum</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Ing. Edgar Rolando Ramírez López</h1>
+            <img src="/static/img/p1.jpg" alt="Foto de perfil" height="100">
+        </div>
+        <div class="section">
+            <h2>Resumen</h2>
+            <p>Ingeniero Mecánico Eléctrico,
+                estudiante de Ingeniería en Ciencias y Sistemas, con una licenciatura en informática, buscando empleo.
+                Preparado para utilizar mis habilidades y
+                pasión en el campo eléctrico y de TI para avanzar en la misión de una empresa. Con experiencia en
+                diversas plataformas de oficina, ofrezco experiencia en el área de
+                servicio al cliente, una actitud positiva y la disposición y motivación para aprender nuevos programas.
+            </p>
+        </div>
+
+
+        <div class="section">
+            <h2>Educación</h2>
+            <ul>
+                <li>Diploma de bachiller en informática con orientación científica - Lehnsen School (2000-2011)</li>
+                <li>Ingeniero Mecánico Eléctrico - Universidad de San Carlos de Guatemala (2012-2023)</li>
+                <li>Estudiante de Ingeniería en Ciencias de la Computación - Universidad de San Carlos de Guatemala
+                    (2022-Presente)</li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <h3>Representante de Servicio al Cliente - 24/7 Intouch, Cuenta de Walmart</h3>
+                    <p>Octubre 2019 - Diciembre 2019</p>
+                    <ul>
+                        <li>Respondía a las consultas de los clientes por correo electrónico y chats.</li>
+                        <li>Resolvía quejas e problemas de los clientes.</li>
+                        <li>Mantenía registros de clientes y actualizaba la información de las cuentas.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Representante de Servicio al Cliente - Productos Riquísima S.A</h3>
+                    <p>Octubre 2021 - Septiembre 2022</p>
+                    <ul>
+                        <li>Respondía a las consultas de los clientes por correo electrónico, chats y teléfono.</li>
+                        <li>Resolvía quejas e problemas de los clientes.</li>
+                        <li>Mantenía registros de clientes y actualizaba la información de las cuentas.</li>
+                        <li>Mantenía información de pedidos y análisis de datos con PowerBI y Excel.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Representante de Servicio al Cliente - 24/7 Intouch, Cuenta de My Children's Place</h3>
+                    <p>Octubre 2022 - Diciembre 2022</p>
+                    <ul>
+                        <li>Respondía a las consultas de los clientes por correo electrónico y chats.</li>
+                        <li>Resolvía quejas e problemas de los clientes.</li>
+                        <li>Mantenía registros de clientes y actualizaba la información de las cuentas.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Ofimatica y servicios - Productos Riquísima S.A</h3>
+                    <p>Diciembre 2022 - Presente</p>
+                    <ul>
+                        <li>Informes ventas con PowerBI</li>
+                        <li>Logistica de ventas</li>
+                        <li>Frontend y backend tienda virtual</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Microsoft Office</li>
+                <progress value="80" max="100"></progress>
+                <li>Comunicación oral y escrita</li>
+                <progress value="80" max="100"></progress>
+                <li>Trabajo en equipo</li>
+                <progress value="80" max="100"></progress>
+                <li>Creatividad</li>
+                <progress value="80" max="100"></progress>
+                <li>Motivación</li>
+                <progress value="80" max="100"></progress>
+                <li>Responsabilidad</li>
+                <progress value="80" max="100"></progress>
+                <li>Liderazgo</li>
+                <progress value="80" max="100"></progress>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Inglés</li>
+                <progress value="80" max="100"></progress>
+                <li>Español</li>
+                <progress value="100" max="100"></progress>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Cualidades</h2>
+            <ul>
+                <li>Competente tecnológicamente</li>
+                <li>Puntual</li>
+                <li>Diligente y organizado</li>
+                <li>Jugador de equipo</li>
+                <li>Honesto</li>
+                <li>Resolutivo</li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Premios y Certificaciones</h2>
+            <ul>
+                <li>Especialista en TI - JavaScript, Certiport (Enero 2023)</li>
+                <li>El Ultimate MySQL Bootcamp: De principiante a experto - UDEMY (Mayo 2023)</li>
+                <li>Python Core - Sololearn (Diciembre 2022)</li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <h2>Otros</h2>
+            <ul>
+                <li><a href="{% url 'hobby' %}">Mis Pasatiempos</a></li>
+                <li><a href="{% url 'contacto' %}">Contáctame</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer> <small>Derechos de autor © 2023 Currículum de Edgar Ramírez. Todos los derechos reservados.</small>
+    </footer>
+</body>
+
+</html>
