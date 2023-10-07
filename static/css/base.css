@@ -26,9 +26,10 @@ body {
 
 .section {
     margin-bottom: 30px;
-    background-color: #f0f0f0;
+    background-color: #f8f9fa;
     padding: 15px;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 
@@ -82,6 +83,64 @@ body {
     font-size: 14px;
     position: absolute;
     left: -20px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.education-table td,
+.education-table th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.education-table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.skills-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.skills-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.skills-table progress {
+    width: 100%;
+    height: 20px;
+    border: none;
+    background-color: #0c0331;
+    border-radius: 5px;
+}
+
+.skills-table progress::-webkit-progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.skills-table progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 5px;
 }
 
 progress {
